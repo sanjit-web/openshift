@@ -1,7 +1,7 @@
 from flask import Flask
-app =Flask(__name__)
+app = Flask(__name__)
 @app.route('/')
 def hello():
-return "hello from Sanjit openshift flask app!"
-if _ _name__=='__main__':
-app.run(host0.0.0.0.0',port=8080)
+   return "Hello from Sanjit’s OpenShift Flask App!"
+if __name__ == '__main__':
+   app.run(host='0.0.0.0', port=8080)
